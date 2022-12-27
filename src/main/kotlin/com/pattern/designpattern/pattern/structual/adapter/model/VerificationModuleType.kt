@@ -1,0 +1,13 @@
+package com.pattern.designpattern.pattern.structual.adapter.model
+
+enum class VerificationModuleType {
+  SAFETY_NET_MODULE,
+  DEMOGRAPHIC_MODULE,
+  MOTHER_NAME_MODULE,
+  COMPLETE_MODULE,
+  KTP_OCR_MODULE,
+  NOT_IN_USE,
+  S_INVEST_MODULE,
+  USER_BANK_ACCOUNT_MODULE,
+  EMAIL_FRAUD_MODULE // DISPOSABLE + BLACKLIST EMAIL CHECKER
+}
